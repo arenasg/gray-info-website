@@ -1,27 +1,27 @@
 <section class="data-grid">
   <div class="grid-container">
     <div class="grid-box">
-       <h2>Assay and instrument</h2>
-       <p>{{ include.assay_instrument | markdownify }}</p>
-     </div>
-     <div class="grid-box">
-       <h2>About the samples</h2>
-       <p>{{ include.samples | markdownify }}</p>
-     </div>
-     <div class="grid-box">
-       <h2>Data Access</h2>
-       <p>{{ include.data_access | markdownify }}</p>
-     </div>
+      <h2>Method and Protocol</h2>
+      <p>{{ include.protocol | markdownify }}</p>
+    </div>
      <div class="grid-box">
        <h2>Data Visualization</h2>
        <p>{{ include.data_visualization | markdownify }}</p>
      </div>
      <div class="grid-box">
-       <h2>Protocol</h2>
-       <p>{{ include.protocol | markdownify }}</p>
+       <h2>Data Access</h2>
+       <p>{{ include.data_access | markdownify }}</p>
      </div>
+       <div class="grid-box">
+         <h2>About the Samples</h2>
+         <p>{{ include.samples | markdownify }}</p>
+       </div>
      <div class="grid-box">
-       <h2>About the data generators</h2>
+        <h2>Instruments</h2>
+        <p>{{ include.instrument | markdownify }}</p>
+      </div>
+     <div class="grid-box">
+       <h2>About the Data Generators</h2>
        <p>{{ include.data_generators | markdownify }}</p>
      </div>
   </div>

@@ -38,7 +38,7 @@ The Gray BRCA Precancer Atlas is currently comprised of the following data types
 
 ## Public Data Access
 
-A key goal of the Gray BRCA Precancer Atlas is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). Data types with an available public repositories (i.e., transcriptomic data via GEO) are made available at the time of publication. Data without a clear subject repository are available in an AWS S3 bucket. For up-to-date instructions on how to download Gray Atlas data on AWS, please visit our access instructions on Zenodo ([DOI: 10.5281/zenodo.10223574](https://doi.org/10.5281/zenodo.10223574)). Email tissue-atlas(at)hms.harvard.edu if you have questions or experience issues.
+A key goal of the Gray BRCA Precancer Atlas is to provide access to primary data consistent with [FAIR Principles](https://www.go-fair.org/fair-principles/). Data types with an available public repositories (i.e., transcriptomic data via GEO) are made available at the time of publication. Data without a clear subject repository are available in an AWS S3 bucket. AWS S3 access instructions will be made shared when data is available to access. Email tissue-atlas(at)hms.harvard.edu if you have questions or experience issues.
 
 ### Data Access References
 <sup>1</sup> <a id="aws-ref"></a>AWS: [http://aws.amazon.com/](http://aws.amazon.com/). Data access instructions available via [Zenodo](https://doi.org/10.5281/zenodo.10223574) <br>

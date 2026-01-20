@@ -1,6 +1,6 @@
 ---
-title: Explore Data
-permalink: /data-explorations
+title: Explore Image Data
+permalink: /image-data-explorations
 
 section_id: data
 layout: secondary

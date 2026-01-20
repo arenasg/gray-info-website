@@ -29,5 +29,5 @@ main:
     children:
       - name: "About the Data"
         url: "/data-overview"
-      - name: "Explore the Data"
-        url: "/data-explorations"
+      - name: "Explore the Image Data"
+        url: "/image-data-explorations"
