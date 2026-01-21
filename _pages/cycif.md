@@ -16,14 +16,16 @@ data_access: |
 
   For a description of the files see the [table below](#data-levels).
 data_visualization: |
-  Full-resolution images can be viewed in a web browser using [Minerva](https://www.minerva.im/):
+  Full-resolution images can be viewed in a web browser using Minerva:
   - via the gallery [below](#narrated-minerva-stories)
   - in cBioPortal (forthcoming)
+
+  Learn more about the Minerva software [below](#viewing-image-data-online-using-minerva).
 
 protocol: |
   Learn about the CyCIF method and selected publications at [https://www.tissue-atlas.org/cycif-method](https://www.tissue-atlas.org/cycif-method).
 
-  Access the CyCIF protocol on [protocols.io](dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2)
+  Access the CyCIF protocol on [protocols.io](dx.doi.org/10.17504/protocols.io.5qpvorbndv4o/v2).
 samples: |
   The following are planned to image with CyCIF:
   - 50-100 breast samples
@@ -36,7 +38,7 @@ Cyclic Immunofluorescence ([CyCIF](https://www.tissue-atlas.org/cycif-method)) i
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
-<a href="#viewing-image-data-online-using-minerva" class="button">Explore Data Online</a>
+<a href="#narrated-minerva-stories" class="button">Explore Data Online</a>
 
 ## About the Data
 
@@ -67,7 +69,7 @@ CyCIF uses OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bio-fo
 
 ## Viewing image data online using Minerva
 
-[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a web browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. In Minerva, viewers can annotate and share regions of interest, pan and zoom to explore different levels of detail, and view different subsets of markers. 
+[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a web browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. In Minerva, viewers can annotate and share regions of interest, pan and zoom to explore different levels of detail, and view different subsets of markers.
 <br>
 
 ### Narrated Minerva Stories
