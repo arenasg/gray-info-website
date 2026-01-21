@@ -20,7 +20,7 @@ data_visualization: |
   - via the gallery [below](#narrated-minerva-stories)
   - in cBioPortal (forthcoming)
 
-  Learn more about the Minerva software [below](#viewing-image-data-online-using-minerva).
+  Learn more about the Minerva software at[minerva.im](minerva.im).
 
 protocol: |
   Learn about the CyCIF method and selected publications at [https://www.tissue-atlas.org/cycif-method](https://www.tissue-atlas.org/cycif-method).
