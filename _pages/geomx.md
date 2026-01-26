@@ -8,10 +8,10 @@ layout: secondary
 instrument: "GeoMx data was collected on a [Nanostring GeoMx](https://nanostring.com/products/geomx-digital-spatial-profiler/geomx-dsp-overview/) Digital Spatial Profiler (DSP)."
 data_generators: "This data was generated and analyzed by the Laboratory of Systems Pharmacology at Harvard Medical School."
 data_access: |
-  All image data will be accessible from Amazon Web Services (AWS):
-  - Levels 1: FASTQ
-  - Level 3: DCC
-  - Level 4: csv
+  Data will be accessible from the following:
+  - Levels 1: FASTQ (GEO)
+  - Level 3: DCC (GEO)
+  - Level 4: csv (AWS)
 
   For a description of the files see the [table below](#data-levels).
 data_visualization: |
@@ -63,9 +63,10 @@ GeoMx microregional spatial transcriptomics detects high-plex protein and RNA ex
 
 | Data Type  | Description | File Format | Average size (per slide)| Data Location |
 | ----- | -----------| --------- |--------- |--------- |
-| Level 1-2 | Raw sequencing files | FASTQ | | GEO |
+| Level 1 | Raw sequencing files | FASTQ | | GEO |
 | Level 3 | Count data for each collection plate  | DCC |  | GEO |
 | Level 4 | Log normalized gene expression data | csv | 150 MB | AWS |
+| All files | Total per slide | | 12 GB |  |
 
 ---
 

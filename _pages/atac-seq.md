@@ -5,14 +5,15 @@ section_id: data
 layout: secondary
 
 instrument: |
-  Here are some details about the assay, instruments on which the samples were run, etc.
+  Here are some details about the instruments on which the samples were run, etc.
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
   - Level 2: BAM (By request with DUA)
   - Level 3: H5 and RDS (AWS)
 
-data_visualization:
+  For a description of the files see the [table below](#data-levels).
+data_visualization: TBA
 
 protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
@@ -30,7 +31,7 @@ About ATAC sequencing...
 
 ## About the Data
 {% include data-grid.html
-   assay_instrument=page.assay_instrument
+   instrument=page.instrument
    samples=page.samples
    data_access=page.data_access
    data_visualization=page.data_visualization

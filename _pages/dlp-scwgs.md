@@ -13,25 +13,25 @@ data_access: |
   - Level 3: CSV, HTML (AWS)
 
   For a description of the files see the [table below](#data-levels).
-data_visualization:
+data_visualization: An HTML report with preliminary analysis is available to explore. See Data Access and Visualization, [below](#data-access-and-visualization)
 
 protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
   The following are planned to be sequenced:
   - 100 breast samples
-data_generators: "This data was generated and analyzed by teams in the lab of Sam Aparicio."
+data_generators: "This data was generated and analyzed in the lab of Sam Aparicio."
 ---
 # DLP+ Single Cell Whole Genome Sequencing
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
-<a href="#data-access" class="button">Data Access</a>
+<a href="#data-access-and-visualization" class="button">Data Access</a>
 
 About DLP+ Single Cell Whole Genome Sequencing ...
 
 ## About the Data
 {% include data-grid.html
-   assay_instrument=page.assay_instrument
+   instrument=page.instrument
    samples=page.samples
    data_access=page.data_access
    data_visualization=page.data_visualization
@@ -52,7 +52,7 @@ About DLP+ Single Cell Whole Genome Sequencing ...
 
 <br>
 
-### Data Access
+### Data Access and Visualization
 
 Several levels of primary and processed data are available via the data cards below:
 

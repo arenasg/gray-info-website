@@ -1,5 +1,5 @@
 ---
-permalink: /tapestri-dnaseq/
+permalink: /dnaseq-tapestri/
 title: Tapestri DNA Sequencing
 section_id: data
 layout: secondary
@@ -12,7 +12,7 @@ data_access: |
   - Level 2: BAM, BAI (By request with DUA)
   - Level 3: VCF, H5, CSV (AWS)
 
-data_visualization:
+data_visualization: TBA
 
 protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
@@ -30,7 +30,7 @@ About Tapestri DNA Sequencing...
 
 ## About the Data
 {% include data-grid.html
-   assay_instrument=page.assay_instrument
+   instrument=page.instrument
    samples=page.samples
    data_access=page.data_access
    data_visualization=page.data_visualization

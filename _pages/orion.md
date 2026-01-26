@@ -58,6 +58,6 @@ Orion uses OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bio-fo
 
 | Data Type  | Description | File Format | Average size (per sample)| Data Location |
 | ----- | -----------| --------- |--------- |--------- |
-| High-plex image data (Levels 1-2)| Quality controlled images are assembled into a high-plex whole slide image | OME-TIFF or other [BioFormats](https://www.openmicroscopy.org/bio-formats/) file type | 100 GB | AWS |
+| High-plex image data (Levels 1-2)| Quality controlled images are assembled into a high-plex whole slide image | OME-TIFF | 100 GB | AWS |
 | Segmentation masks (Level 3) | Cell segmentation identifies and separates cell, nucleus, cytoplasm and other regions  | OME-TIFF | 0.5 GB | AWS |
 | Single-cell spatial feature tables (Level 4) | Summarize the expression of marker intensities and morphological features for each cell | csv | 1 GB | AWS |

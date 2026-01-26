@@ -69,7 +69,7 @@ CyCIF uses OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bio-fo
 | Data Type  | Description | File Format | Average size (per sample)| Data Location |
 | ----- | -----------| --------- |--------- |--------- |
 | Raw images (Level 1) | Collected using cyclic immunofluorescence ([CyCIF](https://www.tissue-atlas.org/cycif-method)) | rcpnl  | 80 GB | AWS |
-| High-plex image data (Level 2)| Quality controlled images are assembled into a high-plex whole slide image using the [MCMICRO](https://mcmicro.org/) analysis pipeline | OME-TIFF or other [BioFormats](https://www.openmicroscopy.org/bio-formats/) file type | 90 GB | AWS |
+| High-plex image data (Level 2)| Quality controlled images are assembled into a high-plex whole slide image using the [MCMICRO](https://mcmicro.org/) analysis pipeline | OME-TIFF | 90 GB | AWS |
 | Segmentation masks (Level 3) | Cell segmentation identifies and separates cell, nucleus, cytoplasm and other regions  | OME-TIFF | 35 GB | AWS |
 | Single-cell spatial feature tables (Level 4) | Summarize the expression of marker intensities and morphological features for each cell | csv | 600 MB | AWS |
 

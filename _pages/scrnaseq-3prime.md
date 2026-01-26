@@ -1,19 +1,20 @@
 ---
-permalink: /3prime-scrnaseq/
+permalink: /scrnaseq-3prime/
 title: Single Cell RNA Sequencing 10x 3'
 
 section_id: data
 layout: secondary
 
-instrument: "Orion data was collected on a [RareCyte Orion](https://rarecyte.com/orion/) microscope."
+instrument: "Here are some details about the instruments on which the samples were run, etc."
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
   - Level 2: BAM (By request with DUA)
   - Level 3: H5 (AWS)
 
+  For a description of the files see the [table below](#data-levels).
 data_visualization: |
-  Data visualization is currently accessible by members of the Gray BRCA Atlas Team on the Broad Single Cell Portal.
+  Level 3 data can currently be explored on the Broad Single Cell Portal by members of the Gray BRCA Atlas Team.
 
 protocol: "The tissues were dissociated to single cells using the Nathanson lab protocol which robustly captures immune cells. Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
@@ -31,7 +32,7 @@ About Single Cell RNA Sequencing 10x 3'...
 
 ## About the Data
 {% include data-grid.html
-   assay_instrument=page.assay_instrument
+   instrument=page.instrument
    samples=page.samples
    data_access=page.data_access
    data_visualization=page.data_visualization
@@ -45,9 +46,10 @@ About Single Cell RNA Sequencing 10x 3'...
 
 | Data Level  | Description | File Format | File Size (per patient)| Data Access |
 | ----- | -----------| --------- | --------- | --------- |
-| Raw sequences (Level 1)| Nucleotide sequence and quality scores | FASTQ | 16 GB | By request with DUA |
+| Raw sequences (Level 1)| Nucleotide sequence and quality scores | FASTQ | | By request with DUA |
 | Aligned sequences (Level 2) | Sequencing data aligned to a reference genome | BAM |  | By request with DUA |
 | Aggregated data (Level 3) | QC, analysis, and exploration of ATAC sequencing data | H5 | 10-30 MB | AWS |
+| All files | Total per sample | | 16 GB |  |
 
 
 <br>
