@@ -52,7 +52,7 @@ About DLP+ Single Cell Whole Genome Sequencing ...
 
 <br>
 
-### Data Access and Visualization
+## Data Access and Visualization
 
 Several levels of primary and processed data are available via the data cards below:
 

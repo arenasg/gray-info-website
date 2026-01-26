@@ -11,7 +11,8 @@ data_access: |
   - Level 1: FASTQ, TSV, TXT (By request with DUA)
   - Level 2: BAM, BAI (By request with DUA)
   - Level 3: VCF, H5, CSV (AWS)
-
+  
+  For a description of the files see the [table below](#data-levels).
 data_visualization: TBA
 
 protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
