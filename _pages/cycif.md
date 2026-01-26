@@ -20,7 +20,7 @@ data_visualization: |
   - via the gallery [below](#narrated-minerva-stories)
   - in cBioPortal (forthcoming)
 
-  Learn more about the Minerva software at[minerva.im](minerva.im).
+  Learn more about the Minerva software at [minerva.im](minerva.im).
 
 protocol: |
   Learn about the CyCIF method and selected publications at [https://www.tissue-atlas.org/cycif-method](https://www.tissue-atlas.org/cycif-method).
@@ -31,6 +31,14 @@ samples: |
   - 50-100 breast samples
   - 30-50 ovarian samples
 ---
+{% assign urlParts = page.url | split: '/' %}
+{% assign sectionId = urlParts[-1] %}
+
+{% include atlas-dataset-info.html
+    sectionId=sectionId
+    pubData=page.data
+    thumbnailDir=sectionId %}
+
 
 # Cyclic Immunofluorescence Multiplexed Imaging
 
@@ -38,7 +46,7 @@ Cyclic Immunofluorescence ([CyCIF](https://www.tissue-atlas.org/cycif-method)) i
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
-<a href="#narrated-minerva-stories" class="button">Explore Data Online</a>
+<a href="#explore-data" class="button">Explore Data Online</a>
 
 ## About the Data
 
@@ -54,7 +62,7 @@ Cyclic Immunofluorescence ([CyCIF](https://www.tissue-atlas.org/cycif-method)) i
 %}
 <br>
 ---
-### Data Levels:
+### Data Levels
 
 CyCIF uses OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bio-formats/) file formats and follows [MITI standards](https://www.miti-consortium.org/).
 
@@ -66,50 +74,16 @@ CyCIF uses OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bio-fo
 | Single-cell spatial feature tables (Level 4) | Summarize the expression of marker intensities and morphological features for each cell | csv | 600 MB | AWS |
 
 ---
-
-## Viewing image data online using Minerva
+## Explore Data
+### Viewing image data online using Minerva
 
 [Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a web browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. In Minerva, viewers can annotate and share regions of interest, pan and zoom to explore different levels of detail, and view different subsets of markers.
 <br>
 
-### Narrated Minerva Stories
-{% include narrated-minerva-description.md %}
-{%- assign overviews = "" | split: "" -%}
-
-{%- for item in site.data-cards -%}
-  {%- if
-      item.url contains "gray-rosenbluth-selfers-2022/" or
-      item.url contains "kader-lin-hug-2024/" or
-      item.url contains "kader-drapkin-ovarian-pilot/"
-    -%}
-    {%- if item.hide != true and
-          item.tags contains "Overview" and
-          item.tags contains "CyCIF"
-    -%}
-      {%- assign overviews = overviews | push: item -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
-
-### Curated Minerva Stories
-{% include curated-minerva-description.md %}
-
 {%
     assign stories = site.data-cards
+    | where_exp: "item", "item.tags contains 'CyCIF'"
     | where_exp: "item", "item.hide != true"
 %}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% if s.tags contains 'curated' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endif %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
+{% include minerva-story-sorting-pubs.md %}
