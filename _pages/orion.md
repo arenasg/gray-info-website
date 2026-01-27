@@ -1,5 +1,5 @@
 ---
-title: Orion
+title: ORION
 permalink: /orion/
 
 section_id: data
@@ -31,9 +31,9 @@ samples: |
   - 75 ovarian samples
 ---
 
-# Orion Whole Slide Multiplexed Imaging
+# ORION Whole Slide Multiplexed Imaging
 
-Orion is a method for collecting one-shot and multi-cycle 18-plex immunofluorescence images and diagnostic-grade H&E images from the same samples. The Orion method was developed in collaboration with RareCyte Inc. and uses a specialized microscope and fluorescent antibodies, which can be imaged simultaneously and spectrally unmixed. Same-slide H&E and IF images provide complementary information that can be used to train ML models to predict cancer progression.
+ORION is a method for collecting one-shot and multi-cycle 18-plex immunofluorescence images and diagnostic-grade H&E images from the same samples. The Orion method was developed in collaboration with RareCyte Inc. and uses a specialized microscope and fluorescent antibodies, which can be imaged simultaneously and spectrally unmixed. Same-slide H&E and IF images provide complementary information that can be used to train ML models to predict cancer progression.
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
