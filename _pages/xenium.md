@@ -32,7 +32,7 @@ samples: |
 
 # Xenium in Situ
 
-Xenium is an image based spatial transcriptomics method.
+Xenium in situ is a targeted spatial transcriptomics platform that enables single-cell, spatially resolved RNA profiling directly in intact FFPE tissue sections.
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>

@@ -26,7 +26,6 @@ data_visualization: |
 
 protocol: |
   Learn about the ORION-FISH method by reading:
-  - preprint forthcoming
 
 samples: |
   The following have been imaged with ORION-FISH:
