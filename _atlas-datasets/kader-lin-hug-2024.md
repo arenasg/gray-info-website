@@ -45,14 +45,14 @@ data:
     </div>
   </div>
 
+## Data Access
+
+Data for this paper is available to explore in [cBioPortal](https://www.cbioportal.org/study/summary?id=ovary_geomx_gray_foundation_2024), including access to associated GeoMx microregional transcriptomic data, ROI annotations, clinical data, and  Minerva stories.
+
   {%
       assign stories = site.data-cards
       | where_exp: "item", "item.tags contains 'ovarian'"
       | where_exp: "item", "item.hide != true"
   %}
 
-{% include minerva-story-sorting-pubs.md %}
-
-## Data Access
-
-Data for this paper is available to explore in [cbioportal](https://www.cbioportal.org/study/summary?id=ovary_geomx_gray_foundation_2024), including access to associated GeoMx microregional transcriptomic data, ROI annotations, clinical data, and  Minerva stories.
+{% include atlas-card-sorting.md %}
