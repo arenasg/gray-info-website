@@ -50,12 +50,20 @@ The Gray Foundation is transforming how we identify and study the earliest stage
       label="View Project"
     %}
     {% include video-slide.html
-      id="1040092371"
+      id="1145398476"
       type="vimeo"
-      title="Complex Interplay between Genetic Mutations, DNA Damage Responses, and Immune System Interactions in Fallopian Tube Precursors"
-      image="general/kader-2024-3d-stic.png"
-      link="/atlas-datasets/kader-lin-hug-2024"
-      label="Explore Publication"
+      title="Immune Suppression in the Fallopian Tube: Insights from Pre-Cancer Atlas"
+      image="publications/kader-lin-hug-2024.jpg"
+      link="/atlas-datasets/kader-lin-hug-2024/"
+      label="View Publication"
+    %}
+    {% include video-slide.html
+      id="1151701868"
+      type="vimeo"
+      title="Exploring Ovarian Cancer Study in cBioPortal"
+      image="general/cbioportal-ovarian.png"
+      link="/atlas-datasets/kader-lin-hug-2024/"
+      label="Explore cBioPortal"
     %}
   {% include video-slider-end.html %}
   </div>
