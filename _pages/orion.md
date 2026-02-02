@@ -5,7 +5,7 @@ permalink: /orion/
 section_id: data
 layout: secondary
 
-instrument: "Orion data was collected on a [RareCyte Orion](https://rarecyte.com/orion/) microscope."
+instrument: "Orion data was collected on [RareCyte Orion](https://rarecyte.com/orion/) 6 and 11 microscopes."
 data_generators: "This data was generated and analyzed by the Laboratory of Systems Pharmacology at Harvard Medical School."
 data_access: |
   All image data will be accessible from Amazon Web Services (AWS):
@@ -23,7 +23,7 @@ data_visualization: |
 
 protocol: |
   Learn about the Orion method by reading:
-  - Lin, JR., Chen, YA., Campton, D. et al. Nature Cancer (2023). [DOI:10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1)
+  - Lin, JR., Chen, YA., Campton, D. et al. Nature Cancer (2023). DOI: [10.1038/s43018-023-00576-1](https://doi.org/10.1038/s43018-023-00576-1)
 
 samples: |
   The following are planned to image with Orion:

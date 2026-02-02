@@ -14,7 +14,7 @@ data_access: |
   For a description of the files see the [table below](#data-levels).
 data_visualization: |
   Full-resolution images can be viewed in a web browser using Minerva:
-  - via the gallery [below](#narrated-minerva-stories)
+  - via the gallery [below](#explore-data)
   - in cBioPortal (forthcoming)
 
   Learn more about the Minerva software at [minerva.im](minerva.im).
@@ -34,7 +34,7 @@ H&E is a staining system used in histology to provides a detailed view of tissue
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
-<a href="#narrated-minerva-stories" class="button">Explore Data Online</a>
+<a href="#explore-data" class="button">Explore Data Online</a>
 
 ## About the Data
 
@@ -60,7 +60,16 @@ H&E images use OME-TIFF and other [BioFormats](https://www.openmicroscopy.org/bi
 
 ---
 
-## Viewing image data online using Minerva
+## Explore Data
+### Viewing image data online using Minerva
 
-[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a web browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. In Minerva, viewers can annotate and share regions of interest, pan and zoom to explore different levels of detail, and view different subsets of markers.
+[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a web browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. In Minerva, viewers can annotate and share regions of interest, pan and zoom to explore different levels of detail, and view different subsets of markers. To view H&E images, select 'H&E (nearby)' from the right-hand Channel Groups menu.
 <br>
+
+{%
+    assign stories = site.data-cards
+    | where_exp: "item", "item.tags contains 'H&E'"
+    | where_exp: "item", "item.hide != true"
+%}
+
+{% include minerva-story-sorting-pubs.md %}
