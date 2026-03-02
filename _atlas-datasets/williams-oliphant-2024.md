@@ -24,7 +24,7 @@ data:
 <a href="https://doi.org/10.1038/s41588-024-01988-0" class="button">Publication</a>
 <a href="https://ega-archive.org/studies/EGAS00001007716" class="button">EGA</a>
 
-## Data Access
+### Data Access
 
 Several levels of primary and processed data are available via the data cards below:
 
