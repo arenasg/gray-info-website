@@ -1,9 +1,9 @@
 groups:
   - key: principals
-    name: Gray Foundation Research Team Project Leads
+    name: Research Team Project Leads
     id: project-leads
   - key: directors
-    name: Scientific Directors
+    name: Gray Foundation Science Leadership
     id: scientific-directors
   - key: dcc
     name: Atlas Informatics Team
