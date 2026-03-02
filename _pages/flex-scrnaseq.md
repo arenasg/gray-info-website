@@ -5,7 +5,7 @@ section_id: data
 layout: secondary
 
 instrument: |
-  Here are some details about the instruments on which the samples were run, etc.
+  Information forthcoming
 data_access: |
   Access the data through:
   - Level 1: FASTQ (by request with DUA)
@@ -13,8 +13,8 @@ data_access: |
   - Level 3: H5 and RDS (AWS)
 
   For a description of the files see the [table below](#data-levels).
-data_visualization: "Level 3 data can be explored on the Broad Single Cell Portal"
-protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
+data_visualization: "At this time, Level 3 data can be explored on the Broad Single Cell Portal by members of the Gray BRCA Atlas team."
+protocol: "Information forthcoming"
 samples: |
   60 normal breast tissue samples from reduction mammoplasties or prophylactic mastectomies have been run so far. Our goal is to sequence 135 samples that are matched by genotype, age, parity and menopause status.
 data_generators: "This data was generated and analyzed by teams in the labs of Joan Brugge and Henry Long."

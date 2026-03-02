@@ -13,12 +13,12 @@ data_access: |
   For a description of the files see the [table below](#data-levels).
 
 data_visualization: "Level 3 data can currently be explored on the [Broad Single Cell Portal](https://urldefense.proofpoint.com/v2/url?u=https-3A__singlecell.broadinstitute.org_single-5Fcell_study_SCP2937_gray-2Dpre-2Dcancer-2Datlas-2D3prime-2Dnew-2Dcutoff2&d=DwMCAg&c=WO-RGvefibhHBZq3fL85hQ&r=cweh-od9e4IKbwBn0LquQ1bd_4ItG3qeJdojjNJCWn4&m=rzG9BjtvHyOFzPaeLT1pYfgqZDvVmCqEMVfvVOsE6NjO_GiX_wcfnaXPHPJRGzkN&s=ci83bBuiB7y6ZeSoVd2D_y-Nx99ERSjTQF-Ukhrj6_Y&e=) by members of the Gray BRCA Atlas Team"
-protocol: "The tissues were bulk sequenced by the Nathanson lab using a custom panel of 149 genes commonly altered in breast cancer. The list was curated from existing clinical panels and literature reviews. Link to protocol, etc."
+protocol: "The tissues were bulk sequenced by the Nathanson lab using a custom panel of 149 genes commonly altered in breast cancer. The list was curated from existing clinical panels and literature reviews."
 samples: |
   The following have been sequenced:
   - 118 samples from 116 individuals
 
-instrument: "Here are some details about the instruments on which the samples were run, etc."
+instrument: "Information forthcoming"
 data_generators: "This data was generated and analyzed by a team in the lab of Kate Nathanson."
 ---
 # High depth targeted DNA sequencing
@@ -26,8 +26,6 @@ data_generators: "This data was generated and analyzed by a team in the lab of K
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
 <a href="#data-visualization" class="button">Data Visualization</a>
-
-High depth targeted DNA sequencing is...
 
 ## About the Data
 {% include data-grid.html
