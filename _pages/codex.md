@@ -5,7 +5,7 @@ permalink: /codex/
 section_id: data
 layout: secondary
 
-instrument: "Here are some details about the instruments on which the samples were run, etc."
+instrument: Information forthcoming
 data_generators: "This data was generated and analyzed by a team at the lab of Kate Nathanson."
 data_access: |
   All image data will be accessible from Amazon Web Services (AWS):
@@ -22,7 +22,7 @@ data_visualization: |
   Learn more about the Minerva software at [minerva.im](minerva.im).
 
 protocol: |
-  Learn more about the CODEX method by reading:
+  Information forthcoming
 
 samples: |
   The following are planned to image with CODEX:
@@ -32,8 +32,6 @@ samples: |
 ---
 
 # CODEX
-
-CODEX is an imaging method ...
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
