@@ -30,8 +30,14 @@ data:
 ## Project Overview
 <div class="row mb-4">
   <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
+    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" description="In this interview, Drs. Ronny Drapkin and Tanjina Kader introduce the goals of the Ovarian Cancer Atlas." %}
     </div>
+  <div class="col-md-6 mb-4">
+      {% include vimeo-card.html id="1145398476" title="Immune Suppression in the Fallopian Tube: Insights from Pre-Cancer Atlas" description="Tanjina Kader, PhD presents findings from her 2025 Cancer Discovery Paper 'Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma' to the Ovarian Cancer Syndicate. For a demonstration of exploring the data in cBioPortal see the next video." %}
+      </div>
+  <div class="col-md-6 mb-4">
+      {% include vimeo-card.html id="1151701868" title="Exploring Ovarian Cancer Study in cBioPortal" description="Tanjina Kader, PhD demonstrates using cBioPortal to explore CyCIF image and GeoMx data from her 2025 Cancer Discovery paper, 'Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma'." %}
+      </div>
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="1040092371" title="Complex Interplay between Genetic Mutations, DNA Damage Responses, and Immune System Interactions in Fallopian Tube Precursors" description="Serous Tubal Intraepithelial Carcinoma (STIC) with BRCA2 Mutation (LSP18251) from 'Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma'." %}
     </div>

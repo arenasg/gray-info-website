@@ -22,3 +22,12 @@ main:
     section_id: projects
     url: "/projects"
     target: "_self"
+  - name: "Data"
+    section_id: data
+    url: "/data-overview"
+    target: "_self"
+    children:
+      - name: "About the Data"
+        url: "/data-overview"
+      - name: "Explore the Image Data"
+        url: "/image-data-explorations"

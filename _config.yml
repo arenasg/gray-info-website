@@ -1,5 +1,6 @@
 repository: gf-dcc/info-website
 imgbaseurl: 'https://grayfoundation.imgix.net/'
+baseurl: "/gray-info-website"
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -21,9 +22,9 @@ collections:
     output: false
   atlas-datasets:
     output: true
-  publications: 
+  publications:
     output: true
-  projects: 
+  projects:
     output: false
   people:
     output: false

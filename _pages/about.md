@@ -40,6 +40,22 @@ The Gray Foundation Atlas represents a consolidated resource for accessing Gray 
         link="/atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/"
         label="View Project"
       %}
+      {% include video-slide.html
+        id="1145398476"
+        type="vimeo"
+        title="Immune Suppression in the Fallopian Tube: Insights from Pre-Cancer Atlas"
+        image="publications/kader-lin-hug-2024.jpg"
+        link="/atlas-datasets/kader-lin-hug-2024/"
+        label="View Publication"
+      %}
+      {% include video-slide.html
+        id="1151701868"
+        type="vimeo"
+        title="Exploring Ovarian Cancer Study in cBioPortal"
+        image="general/cbioportal-ovarian.png"
+        link="/atlas-datasets/kader-lin-hug-2024/"
+        label="Explore cBioPortal"
+      %}
     {% include video-slider-end.html %}
   </div>
 </section>
