@@ -47,6 +47,6 @@ A key goal of the Gray BRCA Precancer Atlas is to provide access to primary data
 <sup>4</sup> <a id="ucsc-ref"></a>UCSC Browser: [https://cells.ucsc.edu/](https://cells.ucsc.edu/) <br>
 <sup>5</sup> <a id="ega-ref"></a>European Genome-Phenome Archive (EGA): [https://ega-archive.org/](https://ega-archive.org/) <br>
 <sup>6</sup> <a id="cbioportal-ref"></a>cBioPortal: [cbioportal.org](cbioportal.org) <br>
-<sup>7</sup> <a id="minerva-ref"></a>Minerva: Image data can be explored on this website at [graybrcaatlas.org/image-data-explorations](/image-data-explorations). Learn more about Minerva at [minerva.im](minerva.im)
+<sup>7</sup> <a id="minerva-ref"></a>Minerva: Image data can be explored on this website at [graybrcaatlas.org/data-explorations](/data-explorations). Learn more about Minerva at [minerva.im](minerva.im)
 
 ---

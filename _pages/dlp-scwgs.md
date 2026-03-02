@@ -5,11 +5,7 @@ section_id: data
 layout: secondary
 
 instrument: |
-  DLP+ uses a contactless piezoelectric dispensing platform, such as the sciFLEXARRAYER S3 or cellenONE
-
-  Reactions are carried out on a high-density nanowell chip, in this case a WaferGen (SmartChip) array
-
-  For more information, see [Instrument Information](#instrument-information) (below)
+  DLP+ uses a contactless piezoelectric dispensing platform to deposit single cells and reagents as picoliter-scale droplets into an open nanowell array, using commercially available instruments such as the sciFLEXARRAYER S3 or cellenONE. Reactions are carried out on a high-density nanowell chip, in this case a WaferGen (SmartChip) array, which serves as the physical substrate for parallelized single-cell library construction. The dispensing setup incorporates integrated imaging, including droplet and nozzle cameras, enabling image-based selection and quality control to avoid depositing doublets or debris. The spotter workstation also includes practical peripherals such as a chilled chip holder or target stage, a wash-solution reservoir, and an active wash station to support reliable dispensing and minimize carryover between deposits.
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
@@ -55,9 +51,6 @@ DLP+ is a high-throughput direct transposition single-cell whole-genome sequenci
 
 
 <br>
-
-### Instrument Information
-DLP+ uses a contactless piezoelectric dispensing platform to deposit single cells and reagents as picoliter-scale droplets into an open nanowell array, using commercially available instruments such as the sciFLEXARRAYER S3 or cellenONE. Reactions are carried out on a high-density nanowell chip, in this case a WaferGen (SmartChip) array, which serves as the physical substrate for parallelized single-cell library construction. The dispensing setup incorporates integrated imaging, including droplet and nozzle cameras, enabling image-based selection and quality control to avoid depositing doublets or debris. The spotter workstation also includes practical peripherals such as a chilled chip holder or target stage, a wash-solution reservoir, and an active wash station to support reliable dispensing and minimize carryover between deposits.
 
 ## Data Access and Visualization
 

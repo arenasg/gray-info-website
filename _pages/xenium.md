@@ -6,7 +6,7 @@ section_id: data
 layout: secondary
 
 instrument: |
-  Information forthcoming
+  Here are some details about the instruments on which the samples were run, etc.
 data_generators: "This data was generated and analyzed by the Laboratory of Systems Pharmacology at Harvard Medical School."
 data_access: |
   Data will be accessible from the following:

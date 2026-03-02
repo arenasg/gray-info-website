@@ -27,16 +27,13 @@ protocol: |
 
 samples: |
   The following are planned to image with Orion:
-  - 50-100 normal breast samples
+  - 50-100 breast samples
   - 75 ovarian samples
 ---
 
 # ORION Whole Slide Multiplexed Imaging
 
 ORION is a method for collecting one-shot and multi-cycle 18-plex immunofluorescence images and diagnostic-grade H&E images from the same samples. The Orion method was developed in collaboration with RareCyte Inc. and uses a specialized microscope and fluorescent antibodies, which can be imaged simultaneously and spectrally unmixed. Same-slide H&E and IF images provide complementary information that can be used to train ML models to predict cancer progression.
-
-For the Breast Atlas, ORION is performed to visualize distinct markers and quantify the expression and spatial heterogeneity of markers across ROIs corresponding to normal breast and benign regions.
-
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
