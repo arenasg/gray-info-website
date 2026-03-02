@@ -5,7 +5,7 @@ section_id: data
 layout: secondary
 
 instrument: |
-  Information forthcoming
+  Here are some details about the instruments on which the samples were run, etc.
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
@@ -13,9 +13,9 @@ data_access: |
   - Level 3: H5 and RDS (AWS)
 
   For a description of the files see the [table below](#data-levels).
-data_visualization: Information forthcoming
+data_visualization: TBA
 
-protocol: "Information forthcoming"
+protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
   The following are planned to be sequenced:
   - 50 breast samples
@@ -25,6 +25,9 @@ data_generators: "This data was generated and analyzed by teams in the labs of J
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
+<a href="#data-visualization" class="button">Data Visualization</a>
+
+About ATAC sequencing...
 
 ## About the Data
 {% include data-grid.html

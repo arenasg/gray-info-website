@@ -5,7 +5,7 @@ title: Single Cell RNA Sequencing 10x 3'
 section_id: data
 layout: secondary
 
-instrument: "Information forthcoming"
+instrument: "Here are some details about the instruments on which the samples were run, etc."
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
@@ -16,7 +16,7 @@ data_access: |
 data_visualization: |
   Level 3 data can currently be explored on the Broad Single Cell Portal by members of the Gray BRCA Atlas Team.
 
-protocol: "The tissues were dissociated to single cells using the Nathanson lab protocol which robustly captures immune cells."
+protocol: "The tissues were dissociated to single cells using the Nathanson lab protocol which robustly captures immune cells. Link to protocol. Could also link to dissociation method protocol, etc."
 samples: |
   The following are planned to be sequenced:
   - 45-56 breast samples from reduction mammoplasties or prophylactic mastectomies
@@ -27,6 +27,8 @@ data_generators: "This data was generated and analyzed by teams in the labs of K
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
 <a href="#data-visualization" class="button">Data Visualization</a>
+
+About Single Cell RNA Sequencing 10x 3'...
 
 ## About the Data
 {% include data-grid.html
