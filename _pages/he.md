@@ -20,9 +20,7 @@ data_visualization: |
   Learn more about the Minerva software at [minerva.im](minerva.im).
 
 protocol: |
-  Access the protocols:
-  - Nathanson Lab H&E protocol  
-  - LSP H&E protocol
+  Information forthcoming
 samples: |
   The following are planned to image with H&E:
   - 100-200 breast samples
