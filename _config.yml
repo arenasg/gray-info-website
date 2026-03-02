@@ -1,6 +1,5 @@
 repository: gf-dcc/info-website
 imgbaseurl: 'https://grayfoundation.imgix.net/'
-baseurl: "/gray-info-website"
 exclude:
   - Gemfile
   - Gemfile.lock
