@@ -1,1 +1,0 @@
-Click any of the following thumbnail images to access associated data or data visualizations. Data visualizations guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
